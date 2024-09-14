@@ -6,39 +6,58 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Raheem Gul's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <style>* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    background-color: white;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-}
-
-header p {
-    font-size: 1.1em;
-    margin: 5px 0;
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        background: url('your-image-path.png') no-repeat center center/cover;
+        color: white;
+        background-size: cover;
+        background-attachment: fixed;
+        line-height: 1.6;
+    }
+    
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+    
+    header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    header h1 {
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #ffdd57; /* Bright stylish color */
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    
+    header p {
+        font-size: 1.2em;
+        margin: 5px 0;
+        color: #d3d3d3;
+    }
+    
+    a {
+        color: #ffdd57;
+        text-decoration: none;
+    }
+    
+    a:hover {
+    text-decoration: underline;
 }
 
 section {
@@ -46,14 +65,15 @@ section {
 }
 
 section h2 {
-    font-size: 1.8em;
+    font-size: 2em;
     margin-bottom: 10px;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #ffdd57;
     padding-bottom: 5px;
+    text-transform: uppercase;
 }
 
 .skills ul, .projects ul {
-    list-style-type: disc;
+    list-style-type: square;
     padding-left: 20px;
 }
 
@@ -66,8 +86,14 @@ footer {
 
 footer p {
     font-size: 0.9em;
-    color: #777;
+    color: #ccc;
 }
+
+/* Text shadow for enhanced styling */
+h1, h2 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+    
 </style>
 </head>
 <body>
